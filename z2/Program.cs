@@ -4,10 +4,10 @@ int a = int.Parse(Console.ReadLine());
 Console.WriteLine("Напишите второе число");
 int b = int.Parse(Console.ReadLine());
 if (a>=b)
+{
 Console.Write("max="+ a);
+Console.Write("min="+ b);
+}
 else 
 Console.Write("max="+ b);
-if (a<=b)
 Console.Write("mmin="+ a);
-else 
-Console.Write("min="+ b);
