@@ -1,10 +1,10 @@
 ﻿Console.Clear();
 Console.WriteLine("Напишите первое число");
-Int a = Convert.ToInt32(Console.ReadLine());
+int a = int.Parse(Console.ReadLine());
 Console.WriteLine("Напишите второе число");
-Int b = Convert.ToInt32(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
 if (a>b)
-Console.Write(a=="max");
+Console.Write("max="+ a);
 else 
-Console.Write(b=="min");
+Console.Write("min="+ b);
 
