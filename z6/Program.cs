@@ -4,7 +4,7 @@ Console.WriteLine("Напишите первое число");
 int a = int.Parse(Console.ReadLine());
 
 if (a % 2 == 0)
-    Console.Write ("Четное");
+    Console.Write ("да");
 else
-    Console.Write ("Не четное");
+    Console.Write ("Нет");
 

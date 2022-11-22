@@ -6,7 +6,7 @@ Console.WriteLine("Напишите второе число");
 int b = int.Parse(Console.ReadLine());
 while (a==b)
 {
-   Console.WriteLine("Числа равны, Введите заново") ;
+   Console.WriteLine("Числа равны, введите заново") ;
 Console.WriteLine("Напишите первое число");
 a = int.Parse(Console.ReadLine());
 Console.WriteLine("Напишите второе число");
@@ -18,5 +18,7 @@ Console.Write("max="+ a);
 Console.Write("min="+ b);
 }
 else 
+{
 Console.Write("max="+ b);
 Console.Write("mmin="+ a);
+}
