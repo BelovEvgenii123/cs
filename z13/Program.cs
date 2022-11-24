@@ -5,5 +5,12 @@ Console.Clear();
 Console.WriteLine("Напишите число");
 int a = int.Parse(Console.ReadLine());
 
-int [] array ={a}
-Console.WriteLine(array[2]);
+    if (a <100)
+Console.WriteLine("третьей цифры нет");
+
+    while(a >=1000)
+{
+ a =a/10;
+}
+int a1 = a%10;
+Console.WriteLine(a1);
